@@ -340,7 +340,3 @@ var imgDom;
 function showImg(img) {
     imgDom = $('<img>').attr('id', 'full-img').attr('src', img).appendTo('body');
 }
-
-// 我的要求并不高，保留这一句版权信息可好？
-// 保留了，你不会损失什么；而保留版权，是对作者最大的尊重。
-console.info('作者：mengkun(http://mkblog.cn)\n壁纸来源于：360壁纸库、必应首页壁纸以及金山词霸开放平台\nGithub：https://github.com/mengkunsoft/wallpaper');

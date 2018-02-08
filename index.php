@@ -8,7 +8,7 @@
     <title>电脑壁纸</title>
 
     <meta name="keywords" content="电脑桌面壁纸,高清电脑桌面壁纸,电脑桌面壁纸下载,电脑高清桌面壁纸" />
-    <meta name="description" content="孟坤在线壁纸提供高清电脑壁纸下载,包括美女,游戏,动漫,动物,汽车,体育,广告,影视,明星,风景,绘画,节日,花卉等经典壁纸"/>
+    <meta name="description" content="提供高清电脑壁纸下载,包括美女,游戏,动漫,动物,汽车,体育,广告,影视,明星,风景,绘画,节日,花卉等经典壁纸"/>
 
     <!-- jQuery文件 -->
     <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
@@ -26,7 +26,7 @@
 </head>
 <body>
 
-<div class="banner">
+<div class="banner" name='banner'>
     <h1 class="webTitle" title="Copyright &copy; ">
         <a href="http://www.wzdh113.com" style="text-decoration: none;color: #2a3654;" target="_blank">IB网</a>
     </h1>
@@ -45,9 +45,9 @@
 <div class="container">
     
     <div class="jigsaw" id="walBox"></div>  <!-- id="walBox" -->
-    
-    <a id="toolBall" target="_blank" href="javascript:void(0);" class="uptoTop"></a>
-    
+    <!-- 
+    <a id="toolBall" target="_blank" href="#banner" class="uptoTop"></a>
+    -->
     <div id="loadmore">壁纸加载中……</div>
 
 </div><!-- class="container" -->
