@@ -27,7 +27,9 @@
 <body>
 
 <div class="banner">
-    <h1 class="webTitle" title="Copyright &copy; ">电脑壁纸</h1>
+    <h1 class="webTitle" title="Copyright &copy; ">
+        <a href="http://www.wzdh113.com" target="_blank">IB网</a>
+    </h1>
     <ul id="banner">
         <li onclick="loadData('360new', true);changeTitle(this)">最新壁纸</li>
         <li class="tags">
@@ -36,7 +38,7 @@
         </li>
         <li onclick="loadData('bing', true);changeTitle(this)">必应美图</li>
         <li onclick="loadData('ciba', true);changeTitle(this)" title="金山词霸每日一句壁纸">每日英语</li>
-        <li><a href="http://www.wzdh113.com" target="_blank">IB网</a></li>
+        
     </ul>
 </div>
 
