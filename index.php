@@ -1,20 +1,3 @@
-<!--********************************
- * 电脑壁纸网站
- * 孟坤网页实验室（http://lab.mkblog.cn）出品
- * ver 1.1
- * !!盗版必究!!
- * 本壁纸站壁纸来自 360壁纸库、必应首页的每日图片以及金山词霸开放平台
- * 原理见 http://mkblog.cn/581/  和  http://mkblog.cn/492/
- * 本站前端界面及交互代码由孟坤网页实验室开发，未经允许，不得任何形式的抄袭。
- * 更新日志：
- * 2017-2-9 ver1.1
- *  新增 每日英语，展示金山词霸每日英语图片及英文句子（感谢 @266277）
- *  新增 点击壁纸分类后同步修改浏览器标题
- *  新增 数据加载时页面模糊化处理
- *
- * 2017-3-21 ver1.2
- *  新增 点击小图弹出大图浏览
- ********************************-->
 <!doctype html>
 <html>
 <head>
@@ -44,7 +27,7 @@
 <body>
 
 <div class="banner">
-    <h1 class="webTitle" title="Copyright &copy; 孟坤网页实验室">电脑壁纸</h1>
+    <h1 class="webTitle" title="Copyright &copy; ">电脑壁纸</h1>
     <ul id="banner">
         <li onclick="loadData('360new', true);changeTitle(this)">最新壁纸</li>
         <li class="tags">
@@ -53,7 +36,7 @@
         </li>
         <li onclick="loadData('bing', true);changeTitle(this)">必应美图</li>
         <li onclick="loadData('ciba', true);changeTitle(this)" title="金山词霸每日一句壁纸">每日英语</li>
-        <li><a href="http://mkblog.cn" target="_blank">孟坤博客</a></li>
+        <li><a href="http://www.wzdh113.com" target="_blank">IB网</a></li>
     </ul>
 </div>
 
