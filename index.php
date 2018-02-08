@@ -28,7 +28,7 @@
 
 <div class="banner">
     <h1 class="webTitle" title="Copyright &copy; ">
-        <a href="http://www.wzdh113.com" target="_blank">IB网</a>
+        <a href="http://www.wzdh113.com" style="text-decoration: none;color: #2a3654;" target="_blank">IB网</a>
     </h1>
     <ul id="banner">
         <li onclick="loadData('360new', true);changeTitle(this)">最新壁纸</li>
